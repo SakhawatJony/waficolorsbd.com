@@ -31,39 +31,47 @@ const SubNavBar = () => {
           <Box sx={{ display: "flex", alignItems: "center", gap: "50px" }}>
             <Box sx={{ display: "flex", alignItems: "center", gap: "5px" }}>
               <EmailIcon
-                sx={{ color: "rgba(0, 131, 116, 0.8)", fontSize: "20px" }}
+                sx={{ color: "#AD3DC5", fontSize: "20px" }}
               />
               <Typography sx={{ color: "white", fontSize: "15px" }}>
-                info@rkztexbd.com
+                waficolorsbd@gamil.com
               </Typography>
             </Box>
             <Box sx={{ display: "flex", alignItems: "center", gap: "5px" }}>
               <PhoneInTalkIcon
-                sx={{ color: "rgba(0, 131, 116, 0.8)", fontSize: "20px" }}
+                sx={{ color: "#AD3DC5", fontSize: "20px" }}
               />
               <Typography sx={{ color: "white", fontSize: "15px" }}>
-                +88 01722-198152
+                +88 01682-714945
+              </Typography>
+            </Box>
+            <Box sx={{ display: "flex", alignItems: "center", gap: "5px" }}>
+              <PhoneInTalkIcon
+                sx={{ color: "#AD3DC5", fontSize: "20px" }}
+              />
+              <Typography sx={{ color: "white", fontSize: "15px" }}>
+              +88 01714-810148
               </Typography>
             </Box>
           </Box>
           <Box sx={{ display: "flex", alignItems: "center", gap: "15px" }}>
             <Facebook
-              sx={{ color: "rgba(0, 131, 116, 0.8)", fontSize: "20px" }}
+              sx={{ color: "#AD3DC5", fontSize: "20px" }}
             />
             <TwitterIcon
-              sx={{ color: "rgba(0, 131, 116, 0.8)", fontSize: "20px" }}
+              sx={{ color: "#AD3DC5", fontSize: "20px" }}
             />
             <YouTubeIcon
-              sx={{ color: "rgba(0, 131, 116, 0.8)", fontSize: "20px" }}
+              sx={{ color: "#AD3DC5", fontSize: "20px" }}
             />
             <InstagramIcon
-              sx={{ color: "rgba(0, 131, 116, 0.8)", fontSize: "20px" }}
+              sx={{ color: "#AD3DC5", fontSize: "20px" }}
             />
             <WhatsAppIcon
-              sx={{ color: "rgba(0, 131, 116, 0.8)", fontSize: "20px" }}
+              sx={{ color: "#AD3DC5", fontSize: "20px" }}
             />
             <LinkedInIcon
-              sx={{ color: "rgba(0, 131, 116, 0.8)", fontSize: "20px" }}
+              sx={{ color: "#AD3DC5", fontSize: "20px" }}
             />
           </Box>
         </Box>

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Box, Container, Typography } from "@mui/material";
+import logo from "../../../asstes/Logo.pdf-removebg-preview.png";
 
 const NavBar = () => {
   const [activeButton, setActiveButton] = useState("home");
@@ -35,9 +36,10 @@ const NavBar = () => {
             justifyContent: "space-between",
           }}
         >
-          <Typography color="white" variant="h6">
-            Waficolorsbd
-          </Typography>
+          <Box sx={{height: "150px", width: "30%" }}>
+            <img style={{ height: "100%", width: "100%" }} src={logo} />
+          </Box>
+
           <Box sx={{ display: "flex", alignItems: "center", gap: "15px" }}>
             {menuItems.map((item) => (
               <Typography
